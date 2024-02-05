@@ -1,5 +1,5 @@
 @use "./variables" as *;
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&family=Open+Sans:wght@400;500;700&display=swap');
 
 
 $font-header: "M PLUS Rounded 1c", "sans-serif";
@@ -13,4 +13,34 @@ $font-header: "M PLUS Rounded 1c", "sans-serif";
 .first-text {
   font-family: $font-header;
   color: $color-secondary;
+}
+
+.second-text {
+  font-family: $font-body;
+  font-weight: 600;
+  color: $color-primary;
+  font-size: 48px;
+}
+
+.third-text {
+  font-family: $font-body;
+  font-weight: 500;
+  color: $color-secondary;
+  font-size: 36px;
+}
+
+.fourth-text {
+  font-family: $font-body;
+  font-weight: 300;
+  color: $color-primary;
+  font-size: 24px;
+}
+
+.dadvice {
+  padding: 10px 30px 10px 30px;
+  border: none;
+  background-color: $color-primary;
+  color: $color-white;
+  border-radius: 10px;
+  font-size: 24px;
 }
