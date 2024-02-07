@@ -11,10 +11,20 @@
   box-sizing: border-box;
 }
 
-.first-text {
-  font-family: $font-header;
-  color: $color-secondary;
+.first-text-block {
+
+  .first-text {
+    font-family: $font-header;
+    color: $color-secondary;
+    text-align: center;
+    font-size: 48px;
+  }
+  
+  .mockup {
+    margin: 30px 0px;
+  }
 }
+
 
 .second-text {
   font-family: $font-body;
@@ -35,6 +45,7 @@
   font-weight: 300;
   color: $color-primary;
   font-size: 24px;
+  text-align: center;
 }
 
 .dadvice {
@@ -44,4 +55,8 @@
   color: $color-white;
   border-radius: 10px;
   font-size: 24px;
+  height: 75px;
+  width: 320px;
+  font-family: $font-body;
+  font-weight: 700;
 }

@@ -1,7 +1,55 @@
 @use "./variables" as *;
 
 .login-button {
-  height: 50px;
-  width: 150px;
+  height: 90px;
+  width: 190px;
   margin-top: 50px;
+  margin-right: 60px;
+  background-color: $color-white;
+  color: $color-primary;
+  border-radius: 10px;
+  border: 2px solid $color-primary;
+  font-family: $font-body;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.dada {
+  height: 170px;
+}
+
+.blocks {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px;
+
+  .par {
+    width: 430px;
+    font-size: 2em;
+    font-family: $font-body;
+    font-weight: 400;
+    color: $color-primary;
+    line-height: 1.5;
+
+    strong {
+      font-weight: 500;
+    }
+  }
+
+  .penguin1 {
+    height: 250px;
+    width: auto;
+  }
+
+  .penguin2 {
+    height: 300px;
+    width: auto;
+  }
+
+  .penguin3 {
+    height: 220px;
+    width: auto;
+  }
 }

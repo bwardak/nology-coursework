@@ -1,61 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
-  <header class="title-login">      <!--Logo of website and sign up button, to be flex displayed, button syled-->
-    <img class="dada" src="./phone-app-images/DADA.png" alt="Dada title">
-    <button class="login-button">Login</button>
-  </header>
-  
-  <main> 
-    <div class="first-text-block">      <!--flex vertically, center text and find font-->
-      <h1 class="first-text">A parenting coach in your pocket</h1>
-      <img src="./phone-app-images/device mockup 1.svg" alt="Picture of dada application">
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="title-login">
+      <!--Logo of website and sign up button, to be flex displayed, button syled-->
+      <img class="dada" src="./phone-app-images/DADA.png" alt="Dada title" />
+      <button class="login-button">Login</button>
+    </header>
 
-    <div class="second-text-block">
-      <h2 class="second-text">Most parenting resources are built with moms in mind.</h2>
-    </div>
-                                                                  <!--Put all divs below into one div and class the texts to reduce clutter, can then flex-->
-    <div class="third-text-block">
-      <h3 class="third-text">We've created one for you, Dad!</h3>
-    </div>
+    <main>
+      <div class="first-text-block">
+        <!--flex vertically, center text and find font-->
+        <h1 class="first-text">A parenting coach in<br />your pocket</h1>
+        <img
+          class="mockup"
+          src="./phone-app-images/device mockup 1.svg"
+          alt="Picture of dada application"
+        />
+      </div>
 
-    <div class="fourth-text-block">
-      <h4 class="fourth-text">We want to empower fathers to parent with confidence and enjoy more quality time with their kids.</h4>
-      <button class="dadvice">Get Dadvice</button>
-    </div>
-                                              <!--Flex and align images to be alternating left and right-->
-    <div class="info">
-      <h5 class="info-text">Here you will find:</h5>
-      <p class="first-par">Low-effort activity ideas to suit your mood and budget</p>
-      <img src="./phone-app-images/penguin1.svg" alt="penguin">
-      
-      <img src="./phone-app-images/penguin2.svg" alt="penguin">
-      <p class="second-par">Fast and clear answers to most common parenting challenges</p>
+      <div class="second-text-block">
+        <h2 class="second-text">
+          Most parenting resources are built with moms in mind.
+        </h2>
+      </div>
+      <!--Put all divs below into one div and class the texts to reduce clutter, can then flex-->
+      <div class="third-text-block">
+        <h3 class="third-text">We've created one for you, Dad!</h3>
+      </div>
 
-      <p class="third-par">Cliff-notes from top rated parenting books (because who has the time to read the whole thing?</p>
-      <img src="./phone-app-images/penguin3.svg" alt="penguin">
+      <div class="fourth-text-block">
+        <h4 class="fourth-text">
+          We want to empower fathers to parent with <br> confidence and enjoy more
+          quality time with <br>their kids.
+        </h4>
+        <button class="dadvice">Get Dadvice</button>
+      </div>
+      <!--Flex and align images to be alternating left and right-->
+      <div class="info">
+        <h5 class="info-text">Here you will find:</h5>
 
-      <img src="./phone-app-images/penguin4.svg" alt="penguin">
-      <p class="fourth-par">Longer reads for the SuperDads out there</p>
+        <div class="blocks">
+          <p class="par par1">
+            <strong>Low-effort activity ideas</strong> to suit your mood and budget
+          </p>
+          <img class="penguin1" src="./phone-app-images/penguin1.svg" alt="penguin" />
+        </div>
 
-      <button class="sign-up">Sign Up</button>
-    </div>
-  </main>
-                    <!--Center and change background color, add links-->
-  <footer>
-    <p>Contact Us</p>
-    <p>Privacy</p>
-    <p>Terms</p>
-  </footer>
+        <div class="blocks">
+          <img class="penguin2" src="./phone-app-images/penguin2.svg" alt="penguin" />
+          <p class="par par2">
+            <strong>Fast and clear answers</strong> to most common parenting challenges
+          </p>
+        </div>
 
+        <div class="blocks">
+          <p class="par par3">
+            <strong>Cliff-notes</strong> from top-rated parenting books (because who has the time
+            to read the whole thing?
+          </p>
+          <img class="penguin3" src="./phone-app-images/penguin3.svg" alt="penguin" />
+        </div>
 
+        <div class="blocks">
+          <img class="penguin4" src="./phone-app-images/peng4-image.png" alt="penguin" />
+          <p class="par par4"><strong>Longer reads</strong> for the SuperDads out there</p>
+        </div>
 
-</body>
+        <button class="sign-up">Sign Up</button>
+      </div>
+    </main>
+    <!--Center and change background color, add links-->
+    <footer>
+      <p>Contact Us</p>
+      <p>Privacy</p>
+      <p>Terms</p>
+    </footer>
+  </body>
 </html>
