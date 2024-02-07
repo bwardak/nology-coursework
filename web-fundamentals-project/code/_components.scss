@@ -18,6 +18,14 @@
   height: 170px;
 }
 
+.info-text {
+  text-align: center;
+  font-family: $font-body;
+  font-size: 2.5em;
+  font-weight: 500;
+  color: $color-primary;
+}
+
 .blocks {
   height: 300px;
   display: flex;
@@ -52,4 +60,25 @@
     height: 220px;
     width: auto;
   }
+}
+
+.sign-up {
+  width: 400px;
+  height: 100px;
+  margin: 50px auto;
+  border: none;
+  border-radius: 10px;
+  background-color: $color-primary;
+  color: $color-white;
+  font-family: $font-body;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+footer {
+  font-family: $font-body;
+  font-size: 2.3em;
+  font-weight: 500;
+  color: $color-primary;
+  background-color: $color-footer;
 }

@@ -65,6 +65,14 @@ footer {
   height: 170px;
 }
 
+.info-text {
+  text-align: center;
+  font-family: "IBM Plex Sans", "sans-sherif";
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #394166;
+}
+
 .blocks {
   height: 300px;
   display: flex;
@@ -94,6 +102,27 @@ footer {
 .blocks .penguin3 {
   height: 220px;
   width: auto;
+}
+
+.sign-up {
+  width: 400px;
+  height: 100px;
+  margin: 50px auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #394166;
+  color: #fafafa;
+  font-family: "IBM Plex Sans", "sans-sherif";
+  font-size: 2em;
+  font-weight: 700;
+}
+
+footer {
+  font-family: "IBM Plex Sans", "sans-sherif";
+  font-size: 2.3em;
+  font-weight: 500;
+  color: #394166;
+  background-color: #FFFCDD;
 }
 
 * {
