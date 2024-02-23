@@ -251,32 +251,28 @@ footer {
   .first-text-block .first-text {
     width: 40%;
     margin-top: 80px;
-    font-size: 4.5em;
+    margin-left: 50px;
+    font-size: 4.7em;
+    text-decoration: underline;
   }
   .first-text-block .mockup {
     width: 60%;
     height: 1100px;
-  }
-  .second-text {
-    width: 40%;
-    margin-left: 20px;
-  }
-  .third-text {
-    width: 40%;
-    margin-left: 20px;
+    margin-left: -50px;
   }
   .fourth-text-block {
     align-items: start;
-    width: 40%;
-    margin-left: 20px;
+    height: 500px;
   }
   .fourth-text-block .dadvice {
     margin-top: 20px;
   }
   .media-query-1600px {
     position: absolute;
-    margin-top: -700px;
+    margin-top: -800px;
     margin-left: 120px;
+    width: 40%;
+    margin-left: 50px;
   }
   .info {
     margin-top: 100px;
