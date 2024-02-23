@@ -61,7 +61,7 @@
   background-color: $color-primary;
   color: $color-white;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 1.5em;
   height: 75px;
   width: 320px;
   font-family: $font-body;
@@ -91,6 +91,8 @@
     color: $color-primary;
     line-height: 1.5;
 
+    
+
     strong {
       font-weight: 500;
     }
@@ -109,6 +111,10 @@
   .penguin3 {
     height: 220px;
     width: auto;
+  }
+
+  .penguin4 {
+    margin-right: 40px;
   }
 }
 
@@ -131,4 +137,48 @@ footer {
   font-weight: 500;
   color: $color-primary;
   background-color: $color-footer;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .blocks {
+        height: 400px;
+
+        .par {
+            width: 530px;
+            font-size: 2.5em;
+        }
+
+        .penguin1 {
+            height: 350px;
+             width: auto;
+        }
+
+        .penguin2 {
+            height: 400px;
+            width: auto;
+          }
+        
+          .penguin3 {
+            height: 320px;
+            width: auto;
+          }
+        
+          .penguin4{
+            height: 358px;
+            width: auto;
+          }
+    }
+
+    .info-text {
+        font-size: 3em;
+    }
+
+    .dadvice {
+        font-size: 2em;
+        height: 100px;
+        width: 400px;
+    }
+
+
 }

@@ -104,7 +104,7 @@ footer {
   background-color: #394166;
   color: #fafafa;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 1.5em;
   height: 75px;
   width: 320px;
   font-family: "IBM Plex Sans", "sans-sherif";
@@ -149,6 +149,9 @@ footer {
   height: 220px;
   width: auto;
 }
+.blocks .penguin4 {
+  margin-right: 40px;
+}
 
 .sign-up {
   width: 400px;
@@ -171,6 +174,39 @@ footer {
   background-color: #FFFCDD;
 }
 
+@media only screen and (min-width: 992px) {
+  .blocks {
+    height: 400px;
+  }
+  .blocks .par {
+    width: 530px;
+    font-size: 2.5em;
+  }
+  .blocks .penguin1 {
+    height: 350px;
+    width: auto;
+  }
+  .blocks .penguin2 {
+    height: 400px;
+    width: auto;
+  }
+  .blocks .penguin3 {
+    height: 320px;
+    width: auto;
+  }
+  .blocks .penguin4 {
+    height: 358px;
+    width: auto;
+  }
+  .info-text {
+    font-size: 3em;
+  }
+  .dadvice {
+    font-size: 2em;
+    height: 100px;
+    width: 400px;
+  }
+}
 * {
   padding: 0;
   margin: 0;
