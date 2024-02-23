@@ -58,7 +58,7 @@ footer {
   border: 2px solid #394166;
   font-family: "IBM Plex Sans", "sans-sherif";
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.9em;
 }
 
 .dada {
@@ -69,32 +69,33 @@ footer {
   font-family: "M PLUS Rounded 1c", "sans-serif";
   color: #1AB9F0;
   text-align: center;
-  font-size: 48px;
+  font-size: 3em;
 }
 .first-text-block .mockup {
   margin: 30px 0px;
   height: 860px;
+  width: auto;
 }
 
 .second-text {
   font-family: "IBM Plex Sans", "sans-sherif";
   font-weight: 600;
   color: #394166;
-  font-size: 48px;
+  font-size: 3em;
 }
 
 .third-text {
   font-family: "IBM Plex Sans", "sans-sherif";
   font-weight: 500;
   color: #1AB9F0;
-  font-size: 36px;
+  font-size: 2.3em;
 }
 
 .fourth-text {
   font-family: "IBM Plex Sans", "sans-sherif";
   font-weight: 300;
   color: #394166;
-  font-size: 24px;
+  font-size: 1.5em;
   text-align: center;
 }
 
@@ -175,6 +176,30 @@ footer {
 }
 
 @media only screen and (min-width: 992px) {
+  .login-button {
+    font-size: 2.4em;
+    width: 250px;
+    height: 90px;
+  }
+  .dada {
+    height: 190px;
+  }
+  .first-text-block .first-text {
+    font-size: 3.5em;
+  }
+  .first-text-block .mockup {
+    height: 1000px;
+    width: auto;
+  }
+  .second-text {
+    font-size: 3.5em;
+  }
+  .third-text {
+    font-size: 2.8em;
+  }
+  .fourth-text {
+    font-size: 2em;
+  }
   .blocks {
     height: 400px;
   }
@@ -205,6 +230,14 @@ footer {
     font-size: 2em;
     height: 100px;
     width: 400px;
+  }
+  .sign-up {
+    width: 500px;
+    height: 125px;
+    font-size: 2.5em;
+  }
+  footer {
+    font-size: 2.7em;
   }
 }
 * {
