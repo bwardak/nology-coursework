@@ -14,6 +14,7 @@ main .first-text-block {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 main .second-text-block {
   text-align: center;
@@ -47,6 +48,12 @@ footer {
   justify-content: center;
 }
 
+@media screen and (min-width: 1600px) {
+  main .first-text-block {
+    flex-direction: row;
+    align-items: start;
+  }
+}
 .login-button {
   height: 90px;
   width: 190px;
@@ -240,14 +247,45 @@ footer {
     font-size: 2.7em;
   }
 }
-@media screen and (min-width: 1200px) {
-  .first-text-block {
-    flex-direction: row;
+@media screen and (min-width: 1600px) {
+  .first-text-block .first-text {
+    width: 40%;
+    margin-top: 80px;
+    font-size: 4.5em;
+  }
+  .first-text-block .mockup {
+    width: 60%;
+    height: 1100px;
+  }
+  .second-text {
+    width: 40%;
+    margin-left: 20px;
+  }
+  .third-text {
+    width: 40%;
+    margin-left: 20px;
+  }
+  .fourth-text-block {
+    align-items: start;
+    width: 40%;
+    margin-left: 20px;
+  }
+  .fourth-text-block .dadvice {
+    margin-top: 20px;
+  }
+  .media-query-1600px {
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 120px;
   }
   .info {
+    margin-top: 100px;
+  }
+  .desktop-flex1 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+  }
+  .desktop-flex2 {
+    display: flex;
   }
 }
 * {

@@ -7,6 +7,7 @@
   height: 200px;
 }
 
+
 main {
   width: 100%;
 
@@ -15,6 +16,7 @@ main {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    position: relative;
   }
 
   .second-text-block {
@@ -53,3 +55,13 @@ footer {
   justify-content: center;
 }
 
+@media screen and (min-width: 1600px) {
+
+    main {
+
+        .first-text-block{
+            flex-direction: row;
+            align-items: start;
+        }
+    }
+}
